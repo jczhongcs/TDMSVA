@@ -1,19 +1,18 @@
 # TDMSVA
-Here we present a demo for demonstrating TDMSVA.
-
+Here we present a demo for using TDMSVA.
 
 
 
 ### Quantitative analysis of phosphorylation
 
 Input packages (Support fuzzy search), protein (Uniprot ID, Support fuzzy search), and precursor protein mass:
-<img src="./TDMSVA/img/image.png">  
+<img src=".\TDMSVA\img\image.png">  
 
 
 Showing scatter plots and box plots of Ptotal：
 
-<img width = "40%" height = "40%" src="./TDMSVA/img/ptotal1.png">
-<img width = "40%" height = "40%" src="./TDMSVA/img/ptotal2.png">
+<img width = "40%" height = "40%" src=".\TDMSVA\img\ptotal1.png">
+<img width = "40%" height = "40%" src=".\TDMSVA\img\ptotal2.png">
 <br /><br />
 
 ***
