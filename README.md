@@ -23,7 +23,7 @@ Input packages (Support fuzzy search), protein (Uniprot ID, Support fuzzy search
 
 
 <img width = "40%" height = "40%" src="./img/deconv.png">
-<img width = "60%" height = "60%" src="./img/6spcom.png">
+<img width = "60%" height = "60%" src="./img/6spCom.png">
 <br /><br />
 
 ***
