@@ -1,6 +1,9 @@
 # TDMSVA
-Here we present a demo for using TDMSVA.
+Proteins are dominant executors of living processes. Top-down mass spectrometry is used to identify and characterize intact proteoform. When compared to bottom-up MS, top-down MS is more effective for identifying and localizing post-translational modifications. Single-cell top-down proteomics method reveal how single-cell protein heterogeneity contributes to cellular functions. The diverse data generated during mass spectrometry identification necessitates the use of specialized visualization tools enhance management and analysis efficiency in single-cell top-down proteomics.
+We introduce TDMSVA, a comprehensive tool for visualizing and analyzing quantitative phosphorylation data from single-cell top-down MS. Developed using C++ and Vue3.js, TDMSVA enables the integration, analysis, and visualization of multi-group single-cell top-down MS data within a unified web interface. Upon importing MS files, users can explore raw MS data, deconvoluted spectra, and proteoform- spectrum matches through flexible search functionalities. TDMSVA provides multiple visualization modes, enabling detailed quantitative phosphorylation analysis and comparative studies across different datasets. This platform streamlines the end-to-end process of single-cell top-down MS data management, offering an intuitive solution for data visualization and analysis.
 
+
+Here we present a demo for using TDMSVA: https://tdmsva.xuefeng.space:30000/
 
 
 ### Quantitative analysis of phosphorylation
@@ -23,7 +26,7 @@ Input packages (Support fuzzy search), protein (Uniprot ID, Support fuzzy search
 
 
 <img width = "40%" height = "40%" src="./img/deconv.png">
-<img width = "60%" height = "60%" src="./img/6spcom.png">
+<img width = "60%" height = "60%" src="./img/6spCom.png">
 <br /><br />
 
 ***
