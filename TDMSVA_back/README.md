@@ -75,4 +75,39 @@ pacman -Rdd Library Name
 ```
 
 
+# Usage
 
+## TDMSVA backend GUI
+
+<img width = "60%" height = "60%" src="./img/back_gui.jpg">
+<br><br><br>
+
+1.Select an empty folder to create a databas.<br><br>
+<img width = "30%" height = "30%" src="./img/creatDB.png"><br>
+
+
+2.Click **Build** or **right-click** in the package lists area to create a Package.<br><br>
+<img width = "30%" height = "30%" src="./img/creatPackage.png"><br>
+
+3.Enter the package information. The package name cannot be repeated in the database.<br><br>
+<img width = "40%" height = "40%" src="./img/selPack.png"><br>
+
+4.Right-click the created package and select Package. Next, you can import the mass spectrometry file<br><br>
+
+## File Format
+RawFile: .mzML or .maXML   （Importing need takes a longer time）<br>
+MsalignFile: ms2.msalign<br>
+PrsmFile: .tsv or .csv  (Currently supports TopPIC PrSM results)<br>
+DeconMs1: ms1.msalign<br>
+
+
+## Network Services
+1.Close the GUI after the data import is complete.<br>
+
+2.To facilitate local debugging,the network service has a fixed path to connect to the database in the source code.<br>
+```shell
+db.Init(R"(DATABASE_PATH)", false);
+
+// db.Init(R"(E:\PNAdb)", false);
+```
+3.Run network_server.exe
